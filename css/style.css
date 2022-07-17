@@ -1,0 +1,15 @@
+body{
+    font-size: 40px;
+}
+
+/*#gameboard{*/
+/*    border-style: solid;*/
+/*    border-color: black;*/
+
+/*}*/
+
+#gameboard tr td{
+    border-style: solid;
+    margin: 10px;
+    padding: 50px;
+}
