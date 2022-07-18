@@ -15,9 +15,10 @@ for(let place of gameboard){
             console.log("O " + place.id);
             index++;
         }
+
+    })
+    resetButton.addEventListener("click", function (event){
+        place.innerText = "";
     })
 }
 
-resetButton.addEventListener("click", function (event){
-    console.log("reset");
-})
