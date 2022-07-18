@@ -1,16 +1,23 @@
 let gameboard = document.querySelectorAll(".place");
+let resetButton = document.querySelector(".btn");
 let index = 0;
 
 for(let place of gameboard){
     place.addEventListener("click", function (event) {
-        console.log("X" + place.id);
-        if(index % 2 == 0){
+
+        if(index % 2 === 0){
             place.innerText = "X";
+            console.log("X " + place.id);
             index++;
         }
         else{
             place.innerText = "O"
+            console.log("O " + place.id);
             index++;
         }
     })
 }
+
+resetButton.addEventListener("click", function (event){
+    console.log("reset");
+})
