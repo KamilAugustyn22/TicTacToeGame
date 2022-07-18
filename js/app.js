@@ -19,6 +19,7 @@ for(let place of gameboard){
     })
     resetButton.addEventListener("click", function (event){
         place.innerText = "";
+        index = 0;
     })
 }
 
