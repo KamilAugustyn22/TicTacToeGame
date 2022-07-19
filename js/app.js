@@ -15,6 +15,7 @@ for(let place of gameboard){
             console.log("O " + place.id);
             index++;
         }
+        
 
     })
     resetButton.addEventListener("click", function (event){
